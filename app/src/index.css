@@ -3,14 +3,69 @@ body {
   display: flex;
   font-family: 'Muli', sans-serif;
 }
+#root{
+  margin: auto;
+}
+.contract2 {
+  margin: 0 0 0 auto;
+  display: block;
+  padding: 40px;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  width: 31.9rem;
+}
 
-.contract, .existing-contracts {
-  margin: 20px;
+.textCenter{
+  text-align: center;
+}
+
+.existing-contracts {
+  margin: 0px;
+  display: inline-block;
+  padding: 0.6rem;
+  border: 1px solid #ddd;
+  background-color: #fff;
+  vertical-align: text-bottom;
+}
+
+.contract {
+  margin: 0 20px;
   display: inline-block;
   padding: 40px;
   border: 1px solid #ddd;
   background-color: #fff;
 }
+/* Add this to your App.css or equivalent */
+.container {
+  margin: 2rem auto;
+  padding: 2rem;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  max-width: 600px;
+  
+}
+
+button {
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+input {
+  padding: 8px;
+  margin-bottom: 10px;
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+}
+
 
 h1 {
   margin: 10px;
@@ -32,7 +87,7 @@ input[type="text"] {
 }
 
 .button {
-  background-color: #f58427;
+  background-color: #6427f5;
   color: white;
   text-align: center;
   font-weight: bold;
